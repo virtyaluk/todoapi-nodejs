@@ -21,3 +21,5 @@ app.listen(config.port, (err) => {
 
     console.log("App listening on port " + config.port);
 });
+
+module.exports = app;
