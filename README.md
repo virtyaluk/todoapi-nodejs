@@ -4,7 +4,7 @@ Learn more [here](https://semaphoreci.com/community/tutorials/a-tdd-approach-to-
 
 ## :green_book: License
 
-[Licensed under the MIT license.](https://github.com/virtyaluk/ts-in-depth/blob/master/LICENSE)
+[Licensed under the MIT license.](https://github.com/virtyaluk/todoapi-nodejs/blob/master/LICENSE)
 
 Copyright (c) 2016 Bohdan Shtepan
 
