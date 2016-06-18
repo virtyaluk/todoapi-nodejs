@@ -11,6 +11,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(bodyParser.json({ type: 'application/vnd.api+json' }));
 app.use(methodOverride());
+require('./app/routes/route')(app);
 
 mongoose.connect(config.db);
 mongoose.connection.on('connected', () => { console.log('Mongoose default connection open to ' + config.db); });
